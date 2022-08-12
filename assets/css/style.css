@@ -1,0 +1,1030 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+/* open css global */
+::selection {
+    background-color: #FF5757;
+    color: #fff;
+}
+
+.margin-cs-benefit-freelancer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.margin-bottom-benefit-freelancer {
+    margin-bottom: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(39, 38, 38, 0.78);
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 20, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FF5757;
+}
+
+#top-nav {
+    transition: 1s;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.margin-cs-max {
+    margin-top: 150px;
+}
+
+.margin-top-per-page{
+    margin-top: 100px;
+}
+
+.background-color-fix {
+    background: linear-gradient(280.23deg, #323232 12.5%, #1A1A1A 68.65%);
+    height:100%;
+}
+/* close css global */
+
+/* open css banner */
+.background-banner {
+    background: linear-gradient(280.23deg, #323232 12.5%, #1A1A1A 68.65%);
+    height: 660px;
+}
+
+.image-banner-top {
+    margin-top: -120px;
+}
+
+.button-info-banner {
+    width: 400px;
+    height: 50px;
+    background: #208275;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-top: 20px
+}
+
+.paragraf-text-button-banner {
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-primary-banner {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;    
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 15px #FF5757;
+    background-color: #FF5757;
+    transition: 1s;
+}
+
+.btn-primary-banner:hover {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;    
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 15px #FF5757;
+    background-color: #FF2929;
+}
+
+.heading-h1-banner {
+    font-size: 34px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+
+.paragraf-text-banner {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* close css banner */
+
+
+/* open css support company */
+.heading-h2-support {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.img-collab-support {
+    width: 90px;
+}
+
+.card-support-company {
+    margin: 10px;
+    color: #FFFFFF;
+}
+
+.group-company-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.group-support-company {
+    position: relative;
+    background-color: #3C4040;
+    margin: 0px auto;
+    border-radius: 25px;
+    height: 120px;
+    padding: 20px;
+}
+
+.number-support-company {
+    color: #DE6B6C;
+}
+/* close css support company */
+
+/* open css service */
+.image-service {
+    width: 100%;
+    height: 200px;    
+    background-color: #AEAEAE;
+    color: blue;
+    line-height: 200px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.card-text-detail-service {
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.heading-h1-service {
+    font-size: 34px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.group-service-global {
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.heading-h5-service {
+    font-size: 24px;
+    color: white;
+}
+/* close css service */
+
+
+/* open css  profit */
+.heading-h5-profit {
+    font-size: 24px;
+    color: white;
+    width: 560px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.heading-point-card {
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.img-point-profit{
+    width: 150px;
+}
+
+.text-point-card {
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+/* close css profit */
+
+/* open css portfolio */
+.heading-h1-portfolio {
+    font-size: 24px;
+    color: black;   
+    color: white;
+    font-weight: 600;
+}
+
+.group-label-portoflio {
+    display: flex;
+}
+
+.label-portoflio {
+    margin: 10px;
+    padding: 5px;
+    background: linear-gradient(111.1deg, #BCBCBC 10.68%, #6C6C6C 57.94%);
+    border-radius: 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold; 
+}
+
+.paragraf-p-portfolio {
+    color: white;
+    font-size: 14px;
+}
+
+.logo-company-client {
+    background-color: #A0A0A0;
+    width: 203px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000000;
+}
+
+
+/* close css portfolio */
+
+
+/* open css testimonial */
+
+.card-testimonial-client {
+    border-radius: 30px;
+}
+
+.logo-client {
+    width: 160px;
+}
+
+.logo-client img {
+    width: 100%;
+}
+
+.heading-h1-testimonial {
+    font-size: 34px;
+    width: 545px;
+    margin: 0px auto;
+    text-align: center; 
+    margin-bottom: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.text-client {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.paragraf-client-description {
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: 500;
+}
+
+.profile-client {
+    display:flex;
+}
+
+.profile-client .department-name {
+    padding-left: 10px;
+}
+
+.department-name h5 {
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.image-client {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: gray;
+    line-height: 50px;
+    text-align: center;
+    color: white; 
+}
+/* close css testimonial */
+
+/* open css office  */
+.card-office-service {
+    border-radius: 30px;
+}
+
+.heading-h1-office {
+    font-size: 34px;
+    margin: 0px auto;
+    text-align: center; 
+    margin-bottom: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.image-office-service {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: gray;
+    line-height: 50px;
+    text-align: center;
+    color: white; 
+}
+
+.content-card {
+    padding: 10px;
+}
+
+.office-service-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.name-office-service {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.description-office-service {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.readmore-link a {
+    color: #000;
+    font-style: italic;
+}
+
+
+/* close css office  */
+
+/* open company level */
+.heading-h5-company-level {
+    font-weight: bold;
+}
+
+.heading-h1-company-level {
+    font-size: 34px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.paragraf-company-level {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn-company-level {
+    background-color: #71B7FF;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    border: none; 
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.card-body-level-company {
+    padding: 20px;
+}
+
+.card-company-level {
+    width: 280px;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+/* close company level */
+
+/* open css footer */
+#line-cs-footer {
+    border-top: 2px solid;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+
+.py-footer-top {
+    padding-top: 100px;
+}
+
+.py-footer-bottom {
+    padding-bottom: 50px;
+}
+
+
+.background-footer-oval {
+    background-image: url('../image/Image-per-layer/Footerr/bg-footer-oval.png');
+    background-repeat: no-repeat;
+    height: 320px;
+}
+
+.background-polygon {
+    background-image: url('../image/Image-per-layer/Footerr/bg-footer-polygon.png');
+    background-repeat: no-repeat;
+    height: 260px;
+    background-position-y: -10%;
+    background-position-x: 95%;
+}
+
+.background-cross-footer {
+    background-image: url('../image/Image-per-layer/Footerr/bg-footer-cross.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+
+.list-horizontal {
+    margin: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.list-horizontal a {
+    text-decoration : none;
+    color: white;
+    transition: 1s;
+}
+
+.list-horizontal a:hover {
+    text-decoration : none;
+    color: red;
+}
+
+.group-menu-footer {
+    margin: 20px
+}
+
+.ul-list-heading{
+    padding: 0;
+}
+
+.li-list-child {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.li-list-child a {
+    text-decoration : none;
+    color: white;
+    transition: 1s;
+}
+
+.li-list-child a:hover {
+    text-decoration : none;
+    color: red;
+}
+
+.bg-card-footer {
+    background-color: #000;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+}
+
+.logo-studio-benang-merah-in-foooter {
+    width: 70px;
+    height: 70px;
+    line-height: 60px;
+    text-align: center;
+    background: green;
+    border-radius: 50%;
+}
+
+.heading-h5-footer {
+    font-size: 18px
+    font-weight: 700;
+
+}
+
+.paragraf-p-footer {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.media-social {
+    display: flex;
+}
+
+.child-icon-social {
+    width: 20px;
+    margin: 10px;
+    transition: 1s;
+}
+
+.child-icon-social:hover {
+    background: red;
+    padding: 3px;
+    border-radius: 5px;
+    transform: rotate(360deg);
+    width: 30px;
+
+}
+/* close css footer */
+
+/* ================================= open css freelancer web =========================================== */
+.background-right-content-banner {
+    background-image: url('../image/background-banner-freelancer.png');
+    height: 660px;
+    background-position-x: 100%;
+    background-position-y: -50%;
+    background-repeat: no-repeat;
+}
+
+.image-position-banner {
+    margin-top: -90px;
+    width: 130%;
+}
+
+.card-info-label-banner-freelance {
+    background: rgba(217, 217, 217, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: -30px;
+    text-align: center;
+    color: white;
+    border: 2px solid #2F494B;
+}
+
+.text-description-label-banner-freelancer {
+    font-size: 18px;
+}
+
+.style-span-red {
+    color: #FF9797;
+    font-weight: bold;
+}
+
+.value-job-freelancer {
+    background: white;
+    border-radius: 50px;
+    padding: 40px;
+}
+
+
+/* open css freelancer value job */
+.heading-h2-value-job-freelancer {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    width:800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px auto;
+    text-align: center;
+    color: #2A2A2A;
+    backdrop-filter: blur(4px);
+}
+
+.card-value-job-freelance {
+    width: 280px;
+    margin:0px auto;
+    border-radius: 30px;
+    background-color: #666666;
+    height: 400px;
+}
+
+.label-value-job-freelance-1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    width:212px;
+    margin: 0px auto;
+    margin-top: 90px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.label-value-job-freelance-2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    width:212px;
+    margin: 0px auto;
+    margin-top: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.label-value-job-freelance-3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    width:212px;
+    margin: 0px auto;
+    margin-top: 90px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* close css freelancer value job */
+
+
+/* freelancer benefits */
+.heading-h2-freelancer-benefits {
+    font-weight: 900;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.paragraf-p-freelancer-benefits{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    width: 608px;
+    color: #FFFFFF;
+    margin:0px auto;
+}
+
+.card-video-freelancer {
+    width: 766px;
+    height: 392px;
+    background: #CECECE;
+    border-radius: 50px;
+    margin:0px auto;
+    line-height: 392px;
+    text-align:center;
+}
+
+.card-testimonial-freelancer {
+    background: #F9F7F7;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.group-profile-freelancer-card{ 
+    display: flex;
+}
+
+.profile-text-freelancer{
+    margin: 5px;
+}
+
+.profile-image-freelancer {
+    width: 40px;
+    height: 40px;
+    background: gray;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.profile-name-h5-freelancer {
+    font-weight: 700;
+    font-size: 12px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.profile-name-p-freelancer {
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+}
+
+.title-profile-text {
+    font-weight: 700;
+    font-size: 12px;
+    color: #000000;
+}
+
+.message-profile-text {
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+}
+
+.card-joiner-freelancer {
+    background: #F4F4F4;
+    border-radius: 30px;
+    border: none;
+    width: 301px;
+    margin:0px auto;
+    box-shadow: 0px 14px 16px 1px rgba(0, 0, 0, 0.25);
+}
+
+.card-joiner-freelancer-black {
+    background: #363636;
+    border: none;
+    width: 301px;
+    margin:0px auto;
+    box-shadow: 0px 14px 16px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.name-joiner-class-white {
+    width: 162px;
+    margin: 0px auto;
+    font-weight: 700;
+    font-size: 29px;
+    text-align:center;
+    color: #F4F4F4;
+    backdrop-filter: blur(4px);
+    margin-top: 20px;     
+}
+
+.name-joiner-class-black {
+    width: 162px;
+    margin: 0px auto;
+    font-weight: 700;
+    font-size: 29px;
+    text-align:center;
+    color: #2A2A2A;
+    backdrop-filter: blur(4px);
+    margin-top: 20px; 
+}
+
+.price-joiner-class {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FF7A00;
+    backdrop-filter: blur(4px);
+}
+
+.price-joiner-class-promo {
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+    text-decoration-line: line-through;
+    color: #2A2A2A;
+    margin-bottom: 0px;
+    backdrop-filter: blur(4px);
+}
+
+.price-joiner-class-promo-white  {
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+    text-decoration-line: line-through;
+    color: #F4F4F4;
+    margin-bottom: 0px;
+    backdrop-filter: blur(4px);
+}
+
+
+.group-price-freelancer {
+    margin-top: 20px;
+}
+
+.list-group-cs {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.list-group-item-cs {
+    border: none;
+    background:none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #2A2A2A;
+    backdrop-filter: blur(4px);
+}
+
+.list-group-item-cs-white {
+    border: none;
+    background:none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #F4F4F4;
+    backdrop-filter: blur(4px);
+}
+
+.btn-register-joiner-freelancer {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 36px;
+    background: #FF6464;
+    box-shadow: 0px 0px 11px 3px rgba(255, 92, 92, 0.25);
+    border-radius: 30px;
+    margin: 20px auto;
+    border: none;
+}
+
+.image-guarante {
+    margin-top: 90px;
+}
+
+.heading-h2-guarante {
+    font-weight: 900;
+    font-size: 32px;
+    color: #EEEEEE;
+    backdrop-filter: blur(4px);
+}
+
+.description-p-guarante {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    backdrop-filter: blur(4px);
+}
+
+.group-text-guarante {
+    margin-top: 120px;
+}
+
+.magrin-bottom-guarante {
+    margin-bottom: 100px;
+}
+
+.magrin-bottom-guarante-child {
+    margin-bottom: 80px;
+}
+
+.card-limit-register {
+    width: 782px;
+    background: #D9D9D9;
+    border-radius: 50px;
+    margin: 0px auto;
+}
+
+.heading-h3-limit-register {
+    font-weight: 700;
+    font-size: 19px;
+    color: #2A2A2A;
+    line-height: 48px;
+    margin: 0px;
+}
+
+.day-limit-register {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #2A2A2A;
+    line-height: 48px; 
+    backdrop-filter: blur(4px);
+}
+
+.info-imit-register {
+    width: 202px;
+    height: 48px;
+    background: #FFAEAE;
+    border-radius: 50px;
+}
+
+.group-info-limit-register {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* responsive mobile */
+@media only screen and (max-width: 600px) {
+    /* css global */
+        .margin-cs-max {
+            margin-top: 100px;
+        }
+    /* close css global */
+    
+    /* open css banner */
+    .paragraf-text-button-banner {
+        font-size: 11px;
+    }
+    .button-info-banner {
+        width: 100%;
+    }
+
+    .heading-h1-banner {
+        font-size: 24px;
+    }
+
+    .image-banner-top {
+        margin-top: 0;
+    }
+    
+    .group-company-logo {
+        display: grid;
+    }
+
+    .group-support-company {
+        height: 100%;
+    }
+    /* close css banner */
+
+    /* open css service */
+    .heading-h1-service {
+        font-size: 24px;
+    }
+    /* clsoe css service */
+
+    /* open */
+    .heading-h5-profit {
+        width: 100%;
+    }
+    /* close */
+
+    /* open */
+    .heading-h1-testimonial {
+        width: 100%
+    }
+    /* close */
+
+
+    /* open style freelancer mobile */
+    .background-right-content-banner {
+        height: 100%;
+    }
+
+    .card-value-job-freelance {
+        width: 100%
+    }
+
+    .paragraf-p-freelancer-benefits {
+        width: 100%;
+    }
+
+    .card-joiner-freelancer {
+        width: 100%;
+    }
+
+    .group-info-limit-register {
+        display: block;
+        justify-content: center;
+    }
+
+    .heading-h3-limit-register {
+        text-align: center;
+    }
+
+    .info-imit-register {
+        width: 100%;
+    }
+
+    .card-joiner-freelancer-black {
+        width: 100%;
+    }
+
+    .flex-row-reverse {
+        margin: 0px;
+    }
+
+    .group-text-guarante {
+        margin-top: 50px;
+    }
+
+    .image-position-banner {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .heading-h2-value-job-freelancer {
+        width: 100%;
+    }
+    
+    .card-video-freelancer {
+        width: 100%;
+    }
+
+    .image-guarante {
+        width: 100%;
+    }
+
+    .card-limit-register {
+        width: 100%
+    }
+}
